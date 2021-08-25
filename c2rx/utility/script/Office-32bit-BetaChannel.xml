@@ -1,0 +1,18 @@
+<Configuration>
+  <Info Description="Office 32-bit Beta Channel Setup" />
+  <Add OfficeClientEdition="32" Channel="BetaChannel" Version="16.0.14405.20002">
+    <Product ID="O365ProPlusRetail">
+      <Language ID="MatchOS" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="Bing" />
+    </Product>
+    <Product ID="VisioProRetail">
+      <Language ID="MatchOS" />
+    </Product>
+    <Product ID="ProjectProRetail">
+      <Language ID="MatchOS" />
+    </Product>
+  </Add>
+  <Updates Enabled="TRUE" />
+</Configuration>
