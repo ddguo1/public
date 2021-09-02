@@ -1,6 +1,6 @@
 <Configuration>
-  <Info Description="Office 64-bit Beta Channel Setup" />
-  <Add OfficeClientEdition="64" Channel="BetaChannel" Version="16.0.14405.20002">
+  <Info Description="%Description%" />
+  <Add OfficeClientEdition="%OfficeClientEdition%" Channel="%Channel%" Version="%BuildNo%">
     <Product ID="O365ProPlusRetail">
       <Language ID="MatchOS" />
       <ExcludeApp ID="Groove" />

@@ -1,0 +1,15 @@
+用C2R+MSIX安装64 bit的Office
+3.	以管理员身份打开一个控制台窗口。
+4.	net use z: \\ddguo-wac6\c2rx
+5.	使用C2RX安装Office
+    A.	运行powershell.exe，在其中：
+    B.	Set-ExecutionPolicy -ExecutionPolicy ByPass
+    C.	Z:\utility\script\InstallOfficeWithC2RX-64Bit.ps1 -BuildNo 16.0.14405.20002
+6.	Office安装完成后，从开始菜单打开word。
+7.	用公司账号登录
+8.	关闭虚拟机，保存Snapshot (Snapshot B) ，供稍后Update/Upsell使用。
+9.	安装add-ins：测试add-ins的安装过程（多个Office Apps）
+10.	测试add-ins的功能（多个Office Apps）
+11.	测试结束后，关闭虚拟机，保存Snapshot (Snapshot C) ，供稍后Update/Upsell使用。
+12.	卸载add-ins
+13.	卸载Office
