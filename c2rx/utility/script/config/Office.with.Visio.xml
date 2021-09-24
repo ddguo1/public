@@ -1,6 +1,6 @@
 <Configuration>
   <Info Description="%Description%" />
-  <Add OfficeClientEdition="%OfficeClientEdition%" Channel="%Channel%" Version="%BuildNo%">
+  <Add OfficeClientEdition="%OfficeClientEdition%" Channel="%Channel%" %Version%>
     <Product ID="O365ProPlusRetail">
       <Language ID="MatchOS" />
       <ExcludeApp ID="Groove" />

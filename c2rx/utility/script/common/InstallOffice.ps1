@@ -109,13 +109,3 @@ function UnInstallOffice {
 
     EnableMSIXVirtualization -Enable $false -ForAction Install
 }
-# 16.0.14405.20002
-
-# Channels
-# BetaChannel
-
-# Description
-# Office 32-bit Beta Channel Setup
-
-# OfficeClientEdition
-# 32
